@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection [
+<!ELEMENT collection (decorate*)>
+<!ELEMENT decorate (title, description, category, steps+)>
+<!ATTLIST decorate id ID #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT steps (steps)?>
+<!ATTLIST steps step CDATA #REQUIRED 
+                uri CDATA #IMPLIED>
+]>
+
+<collection>
+                <decorate id="n001">
+                                <title>Flower Napkin Decoration</title>
+                                <description>Very easy way and given sight fascinating and different from the Rolling common as they are suitable in elegent events</description>
+                                <category>Napkin Folding</category>
+                                <steps step="Spread napkin on the table" uri="image/NAPKINS/NAPKIN.JPG"></steps>
+                                <steps step="Fold the four corner so each corner touch the middle" uri="image/NAPKINS/napkinZahri2.jpg"></steps>
+                                <steps step="The napkin will be like the photo all corners point to the center" uri="image/NAPKINS/napkinZahri3.jpg"></steps>
+                                <steps step="Agian fold each corner to the center" uri="image/NAPKINS/napkinZahri4.jpg"></steps>
+                                <steps step="The napkin will be like the photo" uri="image/NAPKINS/napkinZahri5.jpg"></steps>
+                                <steps step="Flip the napkin so the smooth layer be visible" uri="image/NAPKINS/napkinZahri6.jpg"></steps>
+                                <steps step="Agian fold each corner to the center" uri="image/NAPKINS/napkinZahri7.jpg"></steps>
+                                <steps step="Hold the center point well" uri="image/NAPKINS/napkinZahri8.jpg"></steps>
+                                <steps step="Pull the bottom of each corner and lifted upwards" uri="image/NAPKINS/napkinZahri9.jpg"></steps>
+                                <steps step="Can be completed at this stage and put decorations in the middle and serve or move to the next step" uri="image/NAPKINS/napkinZahri10.jpg"></steps>
+                                <steps step="Pull the lower part of the small angles so that it becomes apparent" uri="image/NAPKINS/napkinZahri11.jpg"></steps>
+                                <steps step="Know the napkin is ready to serve" uri="image/NAPKINS/napkinZahri12.jpg"></steps>
+                                <steps step="For better view palce a decoration or small gift on the center then put the napkin on the plate" uri="image/NAPKINS/napkinZahri13.jpg"></steps>
+                </decorate>
+                <decorate id="g001">
+                                <title>Cucumber Boat</title>
+                                <description>Cucumber boat decking option of the easy ways and that can be offered with entrees or tea parties. It can also be filling the boat with different types of fillers such as tuna or cream or any kind of salads</description>
+                                <category>Garnish</category>
+                                <steps step="Put cucumber on the cutting board and cut the edges" uri="image/GARNISH/CUCUMBER.JPG"></steps>
+                                <steps step="cut cucumber about 5 centimeters" uri="image/GARNISH/cucumberBoat1.jpg"></steps>
+                                <steps step="cut cucumber 1 centimeter thik" uri="image/GARNISH/cucumberBoat2.jpg"></steps>
+                                <steps step="cut cucumber 5 centimeters thik and leave about 0.5 centimeter from the end" uri="image/GARNISH/cucumberBoat3.jpg"></steps>
+                                <steps step="fold the edge and stick it with toothpick" uri="image/GARNISH/cucumberBoat4.jpg"></steps>
+                                <steps step="remove the cucumber seeds and becarefull to leave about 3 millimeter from the edge" uri="image/GARNISH/cucumberBoat5.jpg"></steps>
+                                <steps step="the cucumber will be like the photo" uri="image/GARNISH/cucumberBoat6.jpg"></steps>
+                                <steps step="fill the cucumber with salad or any filling and garnish the toothpick with caper or olive then serve" uri="image/GARNISH/cucumberBoat.jpg"></steps>
+                </decorate>
+</collection>

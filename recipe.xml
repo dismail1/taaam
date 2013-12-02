@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection [
+<!ELEMENT collection (recipe*)>
+<!ELEMENT recipe (title, description, photo*, ingrediant+, preparation, related+)>
+<!ATTLIST recipe id ID #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT photo EMPTY>
+<!ATTLIST photo uri CDATA #IMPLIED>
+<!ELEMENT ingrediant (ingrediant+, preperation)?>
+<!ATTLIST ingrediant name CDATA #REQUIRED 
+                     amount CDATA #IMPLIED
+                     unit CDATA #IMPLIED>
+<!ELEMENT preparation (step+)>
+<!ELEMENT step (#PCDATA)>
+<!ELEMENT related (category+)>
+<!ELEMENT category (#PCDATA)>
+]>
+
+<collection>
+    <recipe id="r001">
+        <title>Eden Soup</title>
+        <description>Homemade dough ​​stuffed with minced meat and onion. Then broiled in water and seasoned with salt and white vinergar.</description>
+        <photo uri="image/edenSoup.jpg"/>
+        <ingrediant name="flour" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="water" amount="4.25" unit="cup"></ingrediant>
+        <ingrediant name="vegetable oil" amount="1" unit="tablespoon "></ingrediant>
+        <ingrediant name="minced meat" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="onion" amount="1"></ingrediant>
+        <ingrediant name="salt" amount="0.75" unit="teaspoon"></ingrediant>
+        <ingrediant name="black pepper" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="white vinegar" amount="3" unit="tablespoons "></ingrediant>
+        <preparation>
+            <step>Placed in a bowl flour 0.25 cup of water, oil and kneaded the dough until you get soft dough and then left for an hour</step>
+            <step>Chopp the onion and then mixed with minced meat and seasoned with 0.25 teaspoon of salt an black pepper</step>
+            <step>Knead the dough until become thin and then cut 5 cm diameter circles. Then taken a quarter of a teaspoon amount of minced meat and placed in the dough. After that fold the dough to form a cressent shap. Then stick the two corners together</step>
+            <step>Place the stuffed dought in water, add the vinegar and salt. Leave to boil and then simmer until the dough is cooked and then serve</step>
+        </preparation>
+        <related>
+            <category>Arabian Gulf</category>
+            <category>Soup</category>
+        </related>
+    </recipe>
+    <recipe id="r002">
+        <title>Saleeg Rice with chicken</title>
+        <description>Saudi types of rice easy, delicious and light. It can be served in lunch or dinner. It contain rice, chicken, cardamom and milk or cream, margarine, salt and pepper</description>
+        <photo uri="image/SALEEG.JPG"/>
+        <ingrediant name="chicken" amount="1000" unit="Gram"></ingrediant>
+        <ingrediant name="Egyptian rice" amount="0.25" unit="cup"></ingrediant>
+        <ingrediant name="American rice" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="milk" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="water" amount="5" unit="cup"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="black pepper" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="cardamom" amount="5"></ingrediant>
+        <ingrediant name="mastik" amount="3"></ingrediant>
+        <ingrediant name="margarine" amount="2" unit="tablespoons "></ingrediant>
+        <preparation>
+            <step>Broil the chicken with salt and black pepper, cardamom and mastik until the chicken is fully cooked</step>
+            <step>Drain the chicken then roasted with butter and black pepper</step>
+            <step>Cook the rice in the chicken broth</step>
+            <step>After the rice cooked add the milk and stir well</step>
+            <step>know the rice is ready to be served with the chicken in top</step>
+        </preparation>
+        <related>
+            <category>Arabian Gulf</category>
+            <category>Rice</category>
+            <category>Easy</category>
+            <category>Main</category>
+        </related>
+    </recipe>
+    <recipe id="r003">
+        <title>Jareesh</title>
+        <description> Saudi Arabia and the cuisine is a groats mixed with rice and yogurt, onion, water, salt and cumin and cook. Then decorated with fried onions and lemon dry</description>
+        <photo uri="image/Jareesh.JPG"/>
+        <ingrediant name="groats" amount="2" unit="cup"></ingrediant>
+        <ingrediant name="milk" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="water" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="Egyptian rice" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="onion" amount="2"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="cumin" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="dried lemon" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="vegetable oil" amount="2" unit="tablespoon "></ingrediant>
+        <preparation>
+            <step>Soak the rice with groats for 5 hours and mince  the onion</step>
+            <step>Broil the rice, groats mix then add  milk and water, salt and half of the onion and then leaves on low heat for an hour</step>
+            <step>stir well then add the cumen</step>
+            <step>cook the onion until it become browned then add the dried lemon. After that serve the jareesh and garnish with golden onion mix</step>
+        </preparation>
+        <related>
+            <category>Rice</category>
+            <category>Arabian Gulf</category>
+            <category>Main</category>
+        </related>
+    </recipe>
+    <recipe id="r004">
+        <title>Mushroom Soup</title>
+        <description>Famous and delicious soups. It is a chicken broth in addition to mushrooms, garlic, flour and butter</description>
+        <photo uri="image/mushroomSoup.jpg"/>
+        <ingrediant name="mushroom" amount="400" unit="Gram"></ingrediant>
+        <ingrediant name="butter" amount="60" unit="Gram"></ingrediant>
+        <ingrediant name="garlic" amount="3" unit="cloves"></ingrediant>
+        <ingrediant name="chicken broth" amount="4" unit="cup"></ingrediant>
+        <ingrediant name="flour" amount="0.25" unit="cup"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="white pepper" amount="0.15" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>finelly chop the mushroon and gralic. then saute it in butter until tender then add flour and stir. then gradually add chicken broth, stir until broil then leave it on low heat for 10 minutes.</step>
+            <step>blend the mix in the blender, add salt and white pepper then leave it in low heat until thik then serve it.</step>
+        </preparation>
+        <related>
+            <category>Soup</category>
+        </related>
+    </recipe>
+    <recipe id="r005">
+        <title>Robyan Qaa Algider</title>
+        <description>It's a Kuwaiti traditional recipe, that contain  rice and shrimp. cooked with saffron, ginger, onion, garlic, cardamom, cinnamon, dried lemon, cumin, fish spices, salt, black pepper and green coriander</description>
+       
+        <ingrediant name="rice" amount="4" unit="cup"></ingrediant>
+        <ingrediant name="saffron" amount="0.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="water" amount="4.25" unit="cup"></ingrediant>
+        <ingrediant name="vegetable oil" amount="0.25" unit="cup"></ingrediant>
+        <ingrediant name="ginger" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="garlic" amount="3" unit="cloves"></ingrediant>
+        <ingrediant name="onion" amount="2"></ingrediant>
+        <ingrediant name="coriander" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="cardamom" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="cinnemon" amount="1" unit="stick"></ingrediant>
+        <ingrediant name="fish scpices" amount="2" unit="teaspoon"></ingrediant>
+        <ingrediant name="cumin" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="dried lemon" amount="0.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="salt" amount="0.5" unit="tablespoon"></ingrediant>
+        <ingrediant name="black pepper" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="shrimp" amount="1" unit="KG"></ingrediant>
+        <preparation>
+            <step>Wash rice and soak it in salted water for 20 minutes then soak the safron in warm water and set aside.</step>
+            <step>Chop the onion , garlic, ginger and green coriander</step>
+            <step>Stir onion in oil and saute until caramelizes. Then
+                Add the garlic and ginger and green coriander</step>
+            <step>Add the cardamom, cinnamon, allspice, cumin, dried lemon, salt and black pepper, then add the shrimp and stir over hight heat until the shrimp become pink.</step>
+            <step>Distributes shrimp in the bottom of the pot , then add the rice over the shrimp</step>
+            <step>Add water and quietly leaves on a higth heat until boil , then reduce heat and cover pan and simmer until the rice about to tender.</step>
+            <step>pour the saffron mixture over the rice and leaves about 3 minutes. Flip the rice in a serving dish and serve hot with green salad</step>
+        </preparation>
+        <related>
+            <category>Arabian Gulf</category>
+            <category>Rice</category>
+            <category>Main</category>
+        </related>
+    </recipe>
+    <recipe id="r006">
+        <title>Baba Ghanoush</title>
+        <description>Appetizers from the middle east. Contain roasted eggplant, tomato, bell pepper, garlic and tahini</description>
+        <photo uri="image/babaQanoj.jpg"/>
+        <ingrediant name="eggplant" amount="1" unit="KG"></ingrediant>
+        <ingrediant name="bell pepper" amount="1"></ingrediant>
+        <ingrediant name="tomato" amount="0.5" unit="KG"></ingrediant>
+        <ingrediant name="lemon juice" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="tahini" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="garlic" amount="1" unit="clove"></ingrediant>
+        <ingrediant name="slat"></ingrediant>
+        <ingrediant name="olive oil"></ingrediant>
+        <preparation>
+            <step>puree the eggplant, peeld and finely chopped tomato, bell pepper and carlic</step>
+            <step>mix the eggplant, tomato, bell pepper and garlic. Then add lemon juice, tahini, salt and black pepper. Placed in serving dish and sprinkle with olive oil.   </step>
+        </preparation>
+        <related>
+            <category>Mediterranean</category>
+            <category>Appetizer</category>
+        </related>
+    </recipe>
+    <recipe id="r007">
+        <title>Baskweet Aldeek Alromi</title>
+        <description>Appetizers that can be made ​​on special occasions and can be served with tea or entrees. It's biscuits toped with sauce that made of mayonnaise and mustard then toped with slices of smoked turkey</description>
+        <photo uri="image/baskweetAldeekAlromi.jpg"/>
+        <ingrediant name="salted biscuits" amount="100" unit="Gram"></ingrediant>
+        <ingrediant name="turkey" amount="250" unit="Gram"></ingrediant>
+        <ingrediant name="mayonnaise" amount="5" unit="tablespoon"></ingrediant>
+        <ingrediant name="musterd" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="salte" amount="0.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="white pepper" amount="0.25" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>Mix mayonnaise, salt, white pepper and mustard</step>
+            <step>place biscuits in serving dish, then put 1 teaspoon of mayonnaise mixture</step>
+            <step>cut smoked turkey slices then wrapped and placed on top of a mixture of mayonnaise and then serve it</step>
+        </preparation>
+        <related>
+            <category>Appetizer</category>
+            <category>Occasions</category>
+        </related>
+    </recipe>
+    <recipe id="r008">
+        <title>Baskaweet Wardat Alsalmon</title>
+        <description>Appetizers that can be made ​​on special occasions and can be served with tea or entrees. It's biscuits toped with tartar sauce and slices of smoked salmon</description>
+        <photo uri="image/baskaweetWardatAlsalmon.jpg"/>
+        <ingrediant name="salted biscuits" amount="100" unit="Gram"></ingrediant>
+        <ingrediant name="salmon" amount="30" unit="Gram"></ingrediant>
+        <ingrediant name="parsely" amount="2" unit="tablespoon"></ingrediant>
+        <ingrediant name="pickels" amount="2" unit="tablespoon"></ingrediant>
+        <ingrediant name="onion" amount="1" unit="tablespoon"></ingrediant>
+        <ingrediant name="mayonnaise" amount="5" unit="tablespoon"></ingrediant>
+        <ingrediant name="musterd" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="salte" amount="0.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="white pepper" amount="0.25" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>finely chop the onion, parsley and pickle then mixed it with mayonnaise, salt, white pepper and mustard</step>
+            <step>place biscuits in serving dish, then put 1 teaspoon of tartar sauce</step>
+            <step>cut salmon fillets displayed 5 centimeter then wrappe it and placed over the tartar sauce and then serve</step>
+        </preparation>
+        <related>
+            <category>Appetizer</category>
+            <category>Occasions</category>
+        </related>
+    </recipe>
+    <recipe id="r009">
+        <title>Safinat Alkosa</title>
+        <description>Vegetarian appetizer which mean zucchini boat. It contains zucchini stuffed with onion, bell pepers, hot pepper, chickpea and garlic</description>
+        <photo uri="image/safinatAlkosa.jpg"/>
+        <ingrediant name="zucchini" amount="10" unit="medium size"></ingrediant>
+        <ingrediant name="green bell pepper" amount="0.5"></ingrediant>
+        <ingrediant name="red bell pepper" amount="0.5"></ingrediant>
+        <ingrediant name="yellow bell pepper" amount="0.5"></ingrediant>
+        <ingrediant name="hot pepper" amount="1"></ingrediant>
+        <ingrediant name="onion" amount="1"></ingrediant>
+        <ingrediant name="garlic" amount="1" unit="clove"></ingrediant>
+        <ingrediant name="chickpea" amount="75" unit="Gram"></ingrediant>
+        <ingrediant name="vegetable oil" amount="2" unit="tablespoon"></ingrediant>
+        <ingrediant name="salt" amount="0.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="black pepper" amount="0.25" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>cut the zucchini in half lengthwise. Using a spoon or melon baller, remove the flesh making a canal down the center of each zucchini half, leaving 1/4-inch all around and the ends closed. Roughly chop the excess zucchini flesh and set aside.</step>
+            <step>finely choped the onion, garlic, bell pepper and hot pepper. Then heat the oil and add the onion until soften then add the galic and saute until become golden.</step>
+            <step>add the zucchini flesh, bell pepper, hot pepper, chickpea and saute until soften. season with salt and pepper</step>
+            <step>fry the zucchini in one spoon of oil. then fill the zucchini boat with the bell pepper filling and serve</step>
+        </preparation>
+        <related>
+            <category>Appetizer</category>
+            <category>Vegetarian</category>
+        </related>
+    </recipe>
+    <recipe id="r010">
+        <title>Halagat Alkodar Be Alforon</title>
+        <description>Vegetarian casserole That mean vegetable ring in the oven. It's an invented recipe good to surprise your guest with this new recipe. It is contain eggplant, potatoes, carrots, cauliflower, green beans and tomatoes</description>
+        <photo uri="image/7alagatAlkodarBeAlforon.jpg"/>
+        <ingrediant name="eggplant" amount="1" unit="big"></ingrediant>
+        <ingrediant name="potato" amount="1"></ingrediant>
+        <ingrediant name="carrot" amount="1"></ingrediant>
+        <ingrediant name="green bean" amount="100" unit="Gram"></ingrediant>
+        <ingrediant name="cauliflower" amount="10" unit="small"></ingrediant>
+        <ingrediant name="onion" amount="1"></ingrediant>
+        <ingrediant name="tomato sauce" amount="50" unit="Gram"></ingrediant>
+        <ingrediant name="olive oil"></ingrediant>
+        <ingrediant name="salt"></ingrediant>
+        <ingrediant name="black pepper"></ingrediant>
+        <ingrediant name="cumin"></ingrediant>
+        <ingrediant name="coriander"></ingrediant>
+        <preparation>
+            <step>cut eggplant, potatoes and carrot into ring slices. then cut  green beans into medium-sized</step>
+            <step>Placed eggplant and broccoli in baking tray then add drizzle of oil and bake until cook halfway through</step>
+            <step>niced the onion then saute in the oil until become golden then add the tomato sauce, salt, black pepper, cumin, coriander and green bean then leave on low heat until the bean tender.</step>
+            <step>place eggplant in the casserole then cover with carrot. after that cover it with the potato and a slice of eggplant. Add the 2 pecies of cauliflower and place around it the  green bean.</step>
+            <step>cover with foil paper and place it on oven for 30 minutes then serve.</step>
+        </preparation>
+        <related>
+            <category>Main</category>
+            <category>Vegetarian</category>
+            <category>Occasions</category>
+        </related>
+    </recipe>
+    <recipe id="r011">
+        <title>Almotagayerat Salad</title>
+        <description>Unusual kind of salad that contain Lettuce, cucumber, zucchini, sausage and potatoes then drizzle a dressing which consist a few scallion, lemon juice and olive oil</description>
+        <photo uri="image/almotagayeratSalad.jpg"/>
+        <ingrediant name="Lettuce" amount="1"></ingrediant>
+        <ingrediant name="cucumber" amount="2"></ingrediant>
+        <ingrediant name="zucchini" amount="3"></ingrediant>
+        <ingrediant name="sausage" amount="5"></ingrediant>
+        <ingrediant name="potato" amount="2"></ingrediant>
+        <ingrediant name="floar" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="vegetable oil" amount="2" unit="tablespoon"></ingrediant>
+        <ingrediant name="olive oil" amount="3" unit="tablespoon"></ingrediant>
+        <ingrediant name="lemon" amount="1"></ingrediant>
+        <ingrediant name="scallion" amount="1"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>cut the zucchini, potato, scallion and cucumber into thin rings. mix olive oil, lemon juice and scallion</step>
+            <step> broil the sausage as package direction then cut it in ring and saok it in the lemon mix</step>
+            <step>cover the zicchini with floar then fry the potato and zicchini it in vegetable oil</step>
+            <step>cut the lettuce then place it in the edge of the serving dish. Then put the zicchini and sausage in the middle after that lay the cucumber and sprinkle potato chips and then serve it.</step>
+        </preparation>
+        <related>
+            <category>Salad</category>
+        </related>
+    </recipe>
+    <recipe id="r012">
+        <title>Andalusia Salad</title>
+        <description>Considered one of the delicious and exotic Salad. It is containing distinctive taste with a variety of lettuce and watercress in addition to green apples and strawberries which is a great mix. The sauce, it is a balsamic vinegar, salt and olive oil.
+        </description>
+        <photo uri="image/andalusiaSalad.jpg"/>
+        <ingrediant name="lettuce" amount="3" unit="slices"></ingrediant>
+        <ingrediant name="watercress" amount="1.5" unit="cup"></ingrediant>
+        <ingrediant name="strauberry" amount="3" unit="pecies"></ingrediant>
+        <ingrediant name="green apple" amount="0.5"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="olive oil" amount="3" unit="tablespoon"></ingrediant>
+        <ingrediant name="balsamic vinegar" amount="3" unit="tablespoon"></ingrediant>
+        <preparation>
+            <step>cut the lettuce and the watercress big pecies and slice the strauberry thin slices and cut the green apple into small cubes just before servinge so it doesn't change it's color</step>
+            <step>mix balsamic vinegar, olive oil and slat then put it over the salad and serve it.</step>
+        </preparation>
+        <related>
+            <category>Salad</category>
+        </related>
+    </recipe>
+    <recipe id="r013">
+        <title>Arisha</title>
+        <description>A delicious breakfast or light dinner meal. It contains white cheese, yogurt, tomato and olive oil. </description>
+        <photo uri="image/arisha.jpg"/>
+        <ingrediant name="white cheese" amount="200" unit="Gram"></ingrediant>
+        <ingrediant name="yogurt" amount="500" unit="Gram"></ingrediant>
+        <ingrediant name="tomato" amount="1"></ingrediant>
+        <ingrediant name="olive oil" amount="2" unit="tablespoon"></ingrediant>
+        <preparation>
+            <step>mash the white cheese with the fork then add yogurt and mix it.</step>
+            <step>cut the tomato medium cubes then add it and mix it. Drizzle with olive oil and serve</step>
+        </preparation>
+        <related>
+            <category>Easy</category>
+        </related>
+    </recipe>
+    <recipe id="r014">
+        <title>Basbosa</title>
+        <description>Mediterranean dessert easy to made. Contains semolina, cream, baking powder, suger, butter and drizzle of lemon</description>
+        <photo uri="image/Basbosa.JPG"/>
+        <ingrediant name="semolina" amount="2" unit="cup"></ingrediant>
+        <ingrediant name="suger" amount="3" unit="cup"></ingrediant>
+        <ingrediant name="cream" amount="320" unit="Gram"></ingrediant>
+        <ingrediant name="butter" amount="100" unit="Gram"></ingrediant>
+        <ingrediant name="baking powder" amount="0.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="water" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="lemon" amount="0.5"></ingrediant>
+        <ingrediant name="tahini" amount="0.5" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>combine semolina, 1 cup of suger and baking powder then add buter and cream</step>
+            <step>grease the pan with tahini then pour the mixture an place it in the oven</step>
+            <step>make the syrup by combine 2 cups of suger with water and lemon juice and stire in low heat until become thik</step>
+            <step>when basbosa become gold remove it from the oven and drizzle immediately with syrup and serve.</step>
+        </preparation>
+        <related>
+            <category>Mediterranean</category>
+            <category>Easy</category>
+            <category>Desserts</category>
+        </related>
+    </recipe>
+    <recipe id="r015">
+        <title>Cinnamon Chicken</title>
+        <description>Easy Main dish that contain chicken cut into quartes then covered with souce that have olive oil, lemon juoce, garlice, cinnamon and salt</description>
+        <photo uri="image/chickenCinnamon.jpg"/>
+        <ingrediant name="Chicken" amount="1000" unit="Gram"></ingrediant>
+        <ingrediant name="garlic" amount="4" unit="cloves"></ingrediant>
+        <ingrediant name="lemon" amount="4"></ingrediant>
+        <ingrediant name="cinnamon" amount="1" unit="tablespoon"></ingrediant>
+        <ingrediant name="olive oil" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>Cut chicken into quarters, squeeze lemon and  grinding garlic</step>
+            <step>Mix lemon juice, garlic, salt, cinnamon and olive oil in bowl. Then place the chicken in oven-safe pan then poure the souce over the chicken and place it on the oven</step>
+            <step>after about 45 minutes serve the cinnamon chicken</step>
+        </preparation>
+        <related>
+            <category>Easy</category>
+            <category>Main</category>
+        </related>
+    </recipe>
+    <recipe id="r016">
+        <title>Madina Harira Soup</title>
+        <description>Soup of Saudi Arabia exactly Medina contains chicken broth, tomatoes and dry basil, giving it a distinctive flavor</description>
+        <photo uri="image/hariraMadinia.jpg"/>
+        <ingrediant name="margarine" amount="1" unit="tablespoons "></ingrediant>
+        <ingrediant name="flour" amount="1" unit="tablespoon"></ingrediant>
+        <ingrediant name="lemon" amount="2"></ingrediant>
+        <ingrediant name="garlic" amount="1" unit="clove"></ingrediant>
+        <ingrediant name="dry basil" amount="1" unit="tablespoon"></ingrediant>
+        <ingrediant name="tomato souce" amount="227" unit="gram"></ingrediant>
+        <ingrediant name="chicken broth" amount="1" unit="cup"></ingrediant>
+        <preparation>
+            <step>Grinding garlic, squeeze lemon then saute garlic in margarine</step>
+            <step>Add the flour and stir until golden. Then dd the chicken broth, tomatoes souce and lemon juice and stir</step>
+            <step>Seasons mix dry basil and salt and leave to boil then reduce the heat and stir from time to time and then serve</step>
+        </preparation>
+        <related>
+            <category>Arabian Gulf</category>
+            <category>Soup</category>
+        </related>
+    </recipe>
+    <recipe id="r017">
+        <title>Carrot Cake</title>
+        <description>Delicious, healthy cake made from shredded carrots, flour, baking soda, baking powder, a pinch of salt and cinnamon. In addition to eggs, sugar, vegetable oil and vanilla. For the frosting it contains cream cheese, sugar and vanilla</description>
+        <photo uri="image/carrotCake.jpg"/>
+        <ingrediant name="carrot" amount="2.5" unit="cup"></ingrediant>
+        <ingrediant name="flour" amount="2" unit="cup"></ingrediant>
+        <ingrediant name="sugar" amount="1.5" unit="cup"></ingrediant>
+        <ingrediant name="oil" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="baking soda" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="baking powder" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="cinnemon" amount="1.5" unit="teaspoon"></ingrediant>
+        <ingrediant name="egg" amount="4"></ingrediant>
+        <ingrediant name="vanila" amount="3" unit="teaspoon"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="cream cheese" amount="200" unit="Gram"></ingrediant>
+        <ingrediant name="castor sugar" amount="60" unit="Gram"></ingrediant>
+        <preparation>
+            <step>Preheat oven to 350 degrees, Grease and flour the pan. Then great the carrots. After that mix Flour, sugar, baking sode, paking powder, cinnemon, 2 tablespoon vanila and salt</step>
+            <step>add oil and eggs then add the carrots and stir well. Pour into prepared pan and bake for 30-40 minutes or or until a toothpick inserted into the center of the cake comes out clean. leave until become cool</step>
+            <step>mix cream chees, castor suger and 1 teaspoon vanila until become smooth. Cover the cake with the frosting and serve.</step>
+            <step>to add carrot garnish just leave some of the frosting and color some orange and some green. Then fill the orange frosting in funnel and press it to form attached curve. after that clean the funnel and place the green frosting and draw 3 line then serve.</step>
+        </preparation>
+        <related>
+            <category>Desserts</category>
+        </related>
+    </recipe>
+    <recipe id="r018">
+        <title>Mandi Dajaj</title>
+        <description>Easy traditional arabian recipe. That contain whole chicken, rice, cardamom, cloves, margarine and small coal</description>
+        <photo uri="image/mandiDajaj.jpg"/>
+        <ingrediant name="Chicken" amount="800" unit="Gram"></ingrediant>
+        <ingrediant name="rice" amount="2" unit="cup"></ingrediant>
+        <ingrediant name="water" amount="5" unit="cup"></ingrediant>
+        <ingrediant name="cardamom" amount="5"></ingrediant>
+        <ingrediant name="cloves" amount="3"></ingrediant>
+        <ingrediant name="salt"></ingrediant>
+        <ingrediant name="black pepper"></ingrediant>
+        <ingrediant name="margarine" amount="2" unit="teaspoon"></ingrediant>
+        <ingrediant name="small coal"></ingrediant>
+        <preparation>
+            <step>spice the water with salt, peper, cardamom and cloves. then cooke the chicken in steamer that contain the spiced water.</step>
+            <step>roast the chicken in oven and season with salt, pepper and smaal teaspoon of margrine.</step>
+            <step>purified the steam water then cook the rice in it on high heat unil broil then reduce the heat to low until the rice cooked well.</step>
+            <step>heat the coal then place it in foil and put it in the rice pot. add 1 teaspoon of margrine over the coal and cover the pot for about 5 minutes.</step>
+            <step>remove the coal and serve the chicken over the rice.</step>
+        </preparation>
+        <related>
+            <category>Main</category>
+            <category>Rice</category>
+            <category>Arabian Gulf</category>
+            <category>Easy</category>
+        </related>
+    </recipe>
+    <recipe id="r019">
+        <title>Cheese Watercress Salad</title>
+        <description>Delicious tangy, sweet salad. It contain watercress, noodle cheese and cherry tomatoes. Cover with sauce consist of balsamic vineger, pomrgrenate molasses, olive oil and salt.</description>
+        <photo uri="image/cheeseWatercressSalad.JPG"/>
+        <ingrediant name="watercress" amount="3" unit="cup"></ingrediant>
+        <ingrediant name="noodle cheese" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="cherry tomatoes" amount="1" unit="cup"></ingrediant>
+        <ingrediant name="olive oil" amount="3" unit="tablespoon"></ingrediant>
+        <ingrediant name="balsamic vinegar" amount="3" unit="tablespoon"></ingrediant>
+        <ingrediant name="pomrgrenate molasses" amount="2" unit="tablespoon"></ingrediant>
+        <ingrediant name="salt" amount="0.5" unit="teaspoon"></ingrediant>
+        <preparation>
+            <step>wash the noodle cheese and cut the watercress</step>
+            <step>mix balsamic vinegar, pomrgrenate molasses, olive oil and salt</step>
+            <step>put the watercress in the serving plate then add noodle cheese and cherry tomatoes. Add dressing to the salad just before serving</step>
+        </preparation>
+        <related>
+            <category>Salad</category>
+        </related>
+    </recipe>
+    <recipe id="r020">
+        <title>Dynamite Shrimp</title>
+        <description>Japanese appetizer that it is consist of buttered fried shrimp over lettuce and drizzle with spicy, tangy souce.</description>
+        <photo uri="image/DynamiteShrimp.JPG"/>
+        <ingrediant name="lettuce" amount="1"></ingrediant>
+        <ingrediant name="peeled shrimp" amount="250" unit="Gram"></ingrediant>
+        <ingrediant name="starch" amount="4" unit="tablespoon"></ingrediant>
+        <ingrediant name="salt" amount="0.25" unit="teaspoon"></ingrediant>
+        <ingrediant name="chili sauce" amount="1" unit="tablespoon"></ingrediant>
+        <ingrediant name="mayonnaise" amount="0.5" unit="cup"></ingrediant>
+        <ingrediant name="honey" amount="1" unit="teaspoon"></ingrediant>
+        <ingrediant name="egg" amount="1"></ingrediant>
+        <ingrediant name="vegetable oil"></ingrediant>
+        <preparation>
+            <step>whisk the eggs then dip the shrimp into it. After that cover the shrimp with starch and deep fry it</step>
+            <step>mix salt, chili souce, mayonnaise and honey and set aside. Cut the lettuce and place it in serving plate after that put the shrimp over it and cover with sauce then serve it.</step>
+        </preparation>
+        <related>
+            <category>Appetizer</category>
+            <category>Far East</category>
+            <category>Seafood</category>
+        </related>
+    </recipe>
+    <recipe id="c001">
+        <title>Gift Cake</title>
+        <description>Gift cake is an innovative new method for decorating cakes and can surprise your guests with it. It is suitable for any occasion and good for young adults and everyone will appreciate it and loved. And is a spongy cake covered with homemade fondant</description>
+        <photo uri="image/CAKE/giftCake.jpg"/>
+        <ingrediant name="squre sponge cake" amount="1"></ingrediant>
+        <ingrediant name="water" amount="1" unit="tablespoon"></ingrediant>
+        <ingrediant name="gelatin" amount="3" unit="teaspoon"></ingrediant>
+        <ingrediant name="Glucose syrup" amount="2" unit="tablespoon"></ingrediant>
+        <ingrediant name="Glycerin" amount="2" unit="teaspoon"></ingrediant>
+        <ingrediant name="confectioners sugar" amount="3" unit="cup"></ingrediant>
+        <ingrediant name="additional confectioners sugar for knead"></ingrediant>
+        <ingrediant name="Sugar syrup"></ingrediant>
+        <ingrediant name="Plank or thick Flynn"></ingrediant>
+        <ingrediant name="Foil"></ingrediant>
+        <ingrediant name="food coloring"></ingrediant>
+        <ingrediant name="toothpick"></ingrediant>
+        <preparation>
+            <step>cover the board with foil and glue it.</step>
+            <step>place water in bowl then add gelatin and stir until the gelatin disolve and be carefule not to reach the broil. remove from heat and add Glucose syrup and Glycerin and stir well.</step>
+            <step>put the suger in large bowl then add the mixutre in the center gradually then stir until the mix become like a dough then place it in surface that cover with suger and knead it with hand until become smooth dough.</step>
+            <step>divide the dough into two parts as third and two thirds then add food color to the small part as it will be the ribon. The color is add and mix by toothpick until get the needed color.</step>
+            <step>cut the cake surface to get equal top then place it on the board and brush it with suger syrub.</step>
+            <step>roll out the white fondant on surface cover with suger so the fondant does not stick on surface. knead it until it is workable consistantcy and become thin. Then place it over the cake and shape to sides using easy-glide smoother or hand. begining from the center to the sides</step>
+            <step>trim the excess fondant using sharp knife.</step>
+            <step>roll the color fondant on a surface that has little suger then cut it with sharp knife into 9 ribons. then roll 5 around cylinder and past it with suger syrub and leave it until dry</step>
+            <step>place the 4 ribon in the center of each edge and put the 4 rings in the middle. Finally place the last ring on the center and past it with suger syrub. Know it is ready to be serve</step>
+        </preparation>
+        <related>
+            <category>Cake Decoration</category>
+        </related>
+    </recipe>
+</collection>
+
+
+
