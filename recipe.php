@@ -131,11 +131,20 @@ if ($valueuri =="")
 echo "</ul>";
 
   
-  echo "<h4>Preparation</h4>";
-  $preparations = $recipe->getElementsByTagName( "preparation" );
-  $preparation = $preparations->item(0)->nodeValue;
-  echo "<p>$preparation</p></div>";
- 
+  echo "<h4>Preparation</h4><ol>";
+  
+  $preparations = $recipe->getElementsByTagName( "step" );
+$i=0;
+  foreach( $preparations as $steps ) 
+{ 
+	
+	$preparation = $preparations->item($i)->nodeValue;
+	echo "<li>$preparation</li>";
+
+$i++;	
+}
+  
+  echo "</ol></div>";
   }
         
         ?>
