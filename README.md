@@ -11,14 +11,15 @@ I dedicate this work to my husband, for his remarkable patience and unwavering l
 ChangeLog	
 ---------------
 2013-12-02  <daneih.ismail@gmail.com>:
-*index.php (homepage): contains a main menu redirect to about, contact, recipes and unit. It has carousel with the last recipe updated to the xml file. It cover cake decoration, napkin folding and garnish. The homepage read all the data from the xml file.
-*recipe.xml (data): store all recipes in addition to cake decoration.
-*decorate.xml (data): store garnish and napkin folding data.
-*RecipeCategory.php: contains recipes title, image and descriptions for all recipes in specific category.
-*recipe.php: cotains the exact recipe information. the title, image, description, ingrediants and directions.
-*decorationCategory.php: contain decorating title, image and discription for all garnish or napkin folding.
-*decorate.php: step by step to show the process of garnish and napkin folding.
-*print.php: print version for recipe.
+
+* index.php (homepage): contains a main menu redirect to about, contact, recipes and unit. It has carousel with the last recipe updated to the xml file. It cover cake decoration, napkin folding and garnish. The homepage read all the data from the xml file.
+* recipe.xml (data): store all recipes in addition to cake decoration.
+* decorate.xml (data): store garnish and napkin folding data.
+* RecipeCategory.php: contains recipes title, image and descriptions for all recipes in specific category.
+* recipe.php: cotains the exact recipe information. the title, image, description, ingrediants and directions.
+* decorationCategory.php: contain decorating title, image and discription for all garnish or napkin folding.
+* decorate.php: step by step to show the process of garnish and napkin folding.
+* print.php: print version for recipe.
 
 NEWS
 ------------------
